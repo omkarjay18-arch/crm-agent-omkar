@@ -5,7 +5,7 @@ function _regeneratorDefine(e, r, n, t) {
   } catch (e) {
     i = 0;
   }
-  module.exports = _regeneratorDefine = function regeneratorDefine(e, r, n, t) {
+  _regeneratorDefine = function regeneratorDefine(e, r, n, t) {
     if (r) i ? i(e, r, {
       value: n,
       enumerable: !t,
@@ -19,6 +19,6 @@ function _regeneratorDefine(e, r, n, t) {
       };
       o("next", 0), o("throw", 1), o("return", 2);
     }
-  }, module.exports.__esModule = true, module.exports["default"] = module.exports, _regeneratorDefine(e, r, n, t);
+  }, _regeneratorDefine(e, r, n, t);
 }
-module.exports = _regeneratorDefine, module.exports.__esModule = true, module.exports["default"] = module.exports;
+export { _regeneratorDefine as default };
